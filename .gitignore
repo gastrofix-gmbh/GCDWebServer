@@ -1,5 +1,3 @@
 .DS_Store
-xcuserdata
-project.xcworkspace
-/build
-/Carthage/Build
+.swiftpm
+.build

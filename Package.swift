@@ -11,7 +11,10 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "GCDWebServers")
+            name: "GCDWebServers"),
+        .testTarget(
+            name: "GCDWebServersTests",
+            dependencies: ["GCDWebServers"])
     ]
 )
 

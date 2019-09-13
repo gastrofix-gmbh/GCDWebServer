@@ -7,14 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "GCDWebServers",
-            targets: ["GCDWebServers"])
+            targets: ["GCDWebServers"]),
     ],
     targets: [
         .target(
             name: "GCDWebServers"),
         .testTarget(
             name: "GCDWebServersTests",
-            dependencies: ["GCDWebServers"])
-    ]
-)
-
+            dependencies: ["GCDWebServers"]),
+    ])

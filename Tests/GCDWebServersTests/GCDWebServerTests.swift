@@ -5,11 +5,10 @@
 //  Created by Igor Camilo on 26.07.19.
 //
 
-import XCTest
 @testable import GCDWebServers
+import XCTest
 
 class GCDWebServerTests: XCTestCase {
-
     func testStartStop() {
         let server = GCDWebServer()
         let randomPort = UInt.random(in: 8000..<9000)
